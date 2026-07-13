@@ -22,18 +22,25 @@ wheels/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
-# Data and Models
-data/
+# Data and Models — ignore by default, but keep specific tracked folders
+data/*
+!data/README.md
+!data/sample_images/
+!data/sample_images/**
 *.h5
 *.pkl
 *.pth
 *.pt
-pretrained_models/
 
-# Results
-results/
+# Pretrained models — ignore weights, keep README
+pretrained_models/*
+!pretrained_models/README.md
+
+# Results — ignore by default, but keep what's already tracked
+results/*
+!results/README.md
+!results/*.jpg
 output/
 
 # IDE
