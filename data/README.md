@@ -5,7 +5,7 @@
 This is the primary dataset used by the notebook to pick a source ("attacker")
 face and a target ("victim") face for the impersonation attack.
 
-- Download from: http://vis-www.cs.umass.edu/lfw/#deepfunneled
+- Download from: https://www.kaggle.com/datasets/jessicali9530/lfw-dataset
 - Extract to: `lfw-deepfunneled/lfw-deepfunneled/<Person_Name>/<Person_Name>_NNNN.jpg`
 - The notebook currently picks two named individuals from this folder
   (`source_person` / `target_person` in the first code cell) and copies
